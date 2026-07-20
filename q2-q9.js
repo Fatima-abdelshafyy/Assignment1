@@ -7,6 +7,8 @@ if (!value) {
     console.log("Valid");
 }//Invalid
 
+
+
 //-------------Q3--------------
 for (let i = 1; i <= 10; i++) {
     if (i % 2 == 0) {
@@ -15,6 +17,9 @@ for (let i = 1; i <= 10; i++) {
         console.log(i)
     }
 }//1 3 5 7 9*/
+
+
+
 //-------------Q4--------------
 let arr = [1, 2, 3, 4, 5, 6];
 let evenArr = arr.filter((element) => {
@@ -29,6 +34,9 @@ let merged = [
     ...arr2
 ];
 console.log(merged);//[ 1, 2, 3, 4, 5, 6 ]
+
+
+
 //-------------Q6--------------
 let day = 1;//1 then it will print sunday
 switch (day) {
@@ -54,4 +62,8 @@ switch (day) {
         console.log("Saturday");
         break;
 }
+
+
+//-------------Q7--------------
+
 
