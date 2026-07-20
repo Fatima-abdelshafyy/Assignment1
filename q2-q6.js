@@ -30,4 +30,28 @@ let merged = [
 ];
 console.log(merged);//[ 1, 2, 3, 4, 5, 6 ]
 //-------------Q6--------------
+let day = 1;//1 then it will print sunday
+switch (day) {
+    case 1:
+        console.log("Sunday");//=====>
+        break;
+    case 2:
+        console.log("Monday");
+        break;
+    case 3:
+        console.log("Tuesday");
+        break;
+    case 4:
+        console.log("wednesday");
+        break;
+    case 5:
+        console.log("Thursday");
+        break;
+    case 6:
+        console.log("Friday");
+        break;
+    case 7:
+        console.log("Saturday");
+        break;
+}
 
