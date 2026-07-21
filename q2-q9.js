@@ -87,7 +87,19 @@ switch (day) {
 
 //-------------Q7--------------
 let array = ["a", "ab", "abc"];
-let leng = array.map((arreay_Len) => {
+let leng = array.map((array_Len) => {
     return array_Len.length;
 })
 console.log(leng)//[ 1, 2, 3 ]
+
+//-------------Q8--------------
+
+function divisible_by_5_and_3(num) {
+    if ((num % 5 == 0) && (num % 3 == 0)) {
+        console.log("Divisible by both");
+    } else {
+        console.log("Not Divisible by both ")
+
+    }
+};
+divisible_by_5_and_3(15);//Divisible by both
