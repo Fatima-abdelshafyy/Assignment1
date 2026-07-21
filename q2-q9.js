@@ -30,14 +30,6 @@ switch (num) {
         }
 
 }
-/*let value = 0;
-
-if (!value) {
-    console.log("Invalid");
-} else {
-    console.log("Valid");
-}//Invalid
-*/
 
 
 //-------------Q3--------------
