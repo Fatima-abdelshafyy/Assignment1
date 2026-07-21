@@ -94,7 +94,7 @@ console.log(leng)//[ 1, 2, 3 ]
 
 //-------------Q8--------------
 
-function divisible_by_5_and_3(num) {
+function isDivisibleBy3And5(num) {
     if ((num % 5 == 0) && (num % 3 == 0)) {
         console.log("Divisible by both");
     } else {
@@ -102,7 +102,7 @@ function divisible_by_5_and_3(num) {
 
     }
 };
-divisible_by_5_and_3(15);//Divisible by both
+isDivisibleBy3And5(15);//Divisible by both
 
 //-------------Q9--------------
 const square_root = (num) => {
