@@ -1,12 +1,43 @@
 //-------------Q2--------------
-let value = 0;
+let num = 0;
+switch (num) {
+    case 0:
+        console.log("Invalid");//=====>
+        break;
+    case "":
+        console.log("Invalid");
+        break;
+    case false:
+        console.log("Invalid");
+        break;
+    case null:
+        console.log("Invalid");
+        break;
+    case undefined:
+        console.log("Invalid");
+        break;
+    case -0:
+        console.log("Invalid");
+        break;
+    case 0n:
+        console.log("Invalid");
+        break;
+    default:// handling NaN in  the default because in js NaN===NaN is false 
+        if (Number.isNaN(num)) {
+            console.log("Invalid");
+        } else {
+            console.log("valid");
+        }
+
+}
+/*let value = 0;
 
 if (!value) {
     console.log("Invalid");
 } else {
     console.log("Valid");
 }//Invalid
-
+*/
 
 
 //-------------Q3--------------
