@@ -39,7 +39,7 @@ for (let i = 1; i <= 10; i++) {
     } else {
         console.log(i)
     }
-}//1 3 5 7 9*/
+}//1 3 5 7 9
 
 
 
@@ -57,8 +57,6 @@ let merged = [
     ...arr2
 ];
 console.log(merged);//[ 1, 2, 3, 4, 5, 6 ]
-
-
 
 //-------------Q6--------------
 let day = 1;//1 then it will print sunday
@@ -88,5 +86,8 @@ switch (day) {
 
 
 //-------------Q7--------------
-
-
+let array = ["a", "ab", "abc"];
+let leng = array.map((arreay_Len) => {
+    return array_Len.length;
+})
+console.log(leng)//[ 1, 2, 3 ]
