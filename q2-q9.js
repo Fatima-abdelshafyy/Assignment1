@@ -103,3 +103,9 @@ function divisible_by_5_and_3(num) {
     }
 };
 divisible_by_5_and_3(15);//Divisible by both
+
+//-------------Q9--------------
+const square_root = (num) => {
+    return num * num;
+};
+console.log(square_root(5));//25
