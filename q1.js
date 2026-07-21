@@ -7,7 +7,7 @@ const q1 = readline.createInterface({
     output: process.stdout
 });
 q1.question("Enter a number: ", (answer) => {
-    answer = Number(answer);
-    console.log(answer + 7);
+    answer = Number(answer);//123
+    console.log(answer + 7);//130
     q1.close();
 });
